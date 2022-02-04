@@ -1,6 +1,62 @@
-Not implemented yet! 
 
-<br>
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Profile</title>
+</head>
+<body>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+            <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
 
-<a href="./home.html"><< Back </a>
+    <section class="sectionBox" id="me">
+        <h2 class="h2Title">Me:</h2>
+        <p>I'm a aspiring iOS Developer, I've put out one app on the App Store that taught me a lot about the start to end process of building applications.</p>
+        <br>
+        
+    </section>
+    <button class="funButton" id="color">My Favorite Color</button>
+        <button class="funButton" id="place">My Favorite Place</button>
+        <button class="funButton" id="ritual">My Favorite Ritual</button>
+    <br>
+    <section class="sectionBox">
+        <h2 class="h2Title">Skills:</h2>
+        <ul>
+            <li>Swift</li>
+            <li>Javascript</li>
+            <li>SwiftUI</li>
+        </ul>
+    </section>
+    <section class="sectionBox">
+        <h2 class="h2Title">Interests</h2>
+        <p>I enjoy coding, specifically creating iOS applications. Outside of coding I enjoy watching anime, playing Overwatch, and reading.</p>
+    </section>
+    <section class="sectionBox">
+        <h2 class="h2Title">Career Goals</h2>
+        <p>After Devmountain I plan to get a iOS Developer role and improve my skills. Eventually I would like a role at Apple where I can help build the future of AR.</p>
+    </section>
+    
+    <section class="sectionBox">
+        <h2 class="h2Title">Contact Me:</h2>
+        <div class="formBox">
+            <form>
+                Name: <input type="text" placeholder="Enter your name"/>
+                Email: <input type="text" placeholder="Enter your email"/>
+                <br>
+                <input type="textarea" placeholder="Reason for contact" id="textArea"/>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </section>
+   <script src="profile.js"></script>
+</body>
+</html>
